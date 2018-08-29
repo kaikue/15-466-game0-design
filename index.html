@@ -25,15 +25,38 @@
 <p>TODO: more information (2-3 sentences) about gameplay, referring to the image above.</p>
 
 <h2>Gameplay</h2>
-<p>TODO: Describe how the game starts, plays (e.g. what are the controls), and ends.</p>
+<p><strong>Start:</strong> </p>
+<p><strong>Movement:</strong> Movement happens in turns. Each turn, the player 
+can attack (see Combat) or move one space. They can move up, down, left, or 
+right on the 6 by 6 grid, constrained by walls. The player then faces in the 
+direction that they moved (so a move up will leave the player facing towards the 
+top of the screen). After the player attacks or moves, the goblins all move by 
+one space. They try to move closer to the player, stepping up, down, left, or 
+right to close the distance.</p>
+<p><strong>Combat:</strong> If the player presses space, they perform an attack move. 
+If there is an adjacent goblin on the tile they are facing, that goblin is slain 
+and becomes a harmless pile of bones. If there is no goblin on that tile, they 
+do not hit anything. Attacking takes a turn, so all goblins move by one space 
+regardless of whether the player hit anything or not.</p>
+<p>If a goblin moves onto the player's tile, the player is slain, and the level 
+restarts.</p>
+<p><strong>Finish:</strong> If the player slays all goblins in a level, the 
+level is won, and a new level is generated.</p>
 <!-- TODO: illustrate your descriptions with more drawings -->
 <div class="figure">
-<img src="warrior-large.png" />
-<img src="goblin-large.png" />
-</div>
+&nbsp;<img src="goblin-large.png" />
+<img src="warrior-large.png" /></div>
 
 <h2>Assets</h2>
-<p>TODO: Provide a link to any preliminary 3D models, sounds, or <a href="https://github.com/ixchow/amoeba-escape/blob/master/tiles.png">textures</a> for the game. Make sure to only link to assets with appropriate licenses.</p>
+<p>Animated Warrior by Calciumtrice, usable under Creative Commons Attribution 
+3.0 license: <a href="https://opengameart.org/content/animated-warrior">
+https://opengameart.org/content/animated-warrior</a></p>
+<p>Animated Goblins by Calciumtrice, usable under Creative Commons Attribution 
+3.0 license: <a href="https://opengameart.org/content/animated-goblins">
+https://opengameart.org/content/animated-goblins</a></p>
+<p>Dungeon tileset by Calciumtrice, usable under Creative Commons Attribution 
+3.0 license: <a href="https://opengameart.org/content/dungeon-tileset-1">
+https://opengameart.org/content/dungeon-tileset-1</a></p>
 
 </body>
 </html>
